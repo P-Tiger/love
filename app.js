@@ -1,4 +1,4 @@
-const yourDate = new Date('2017-08-18T00:00:00+07:00'),
+const yourDate = new Date('2015-08-18T00:00:00+07:00'),
   music = ['infinity'];
 
 document.addEventListener(
@@ -33,3 +33,7 @@ document.addEventListener(
   },
   false
 );
+
+window.onload = function () {
+  document.getElementById('music').getElementById('audio').play();
+};
